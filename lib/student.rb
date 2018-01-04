@@ -59,5 +59,6 @@ def self.new_from_db
   name = row[1]
   grade = row[2]
   self.new(id, name, grade)
+end
 
 end #of class Student
